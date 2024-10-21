@@ -1,0 +1,45 @@
+.block {
+	position: absolute;
+    width: 485px;
+    height: 525px;
+    left: 50%;
+    top: 50%;
+    margin-left: -10%;
+    margin-top: -10%;
+    background: #fc0;
+    border: solid 1px black;
+    padding: 10px;
+}
+
+.block .inner{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.hud {
+	width:  200px;
+	height: 50px;
+	display: inline-flex;
+	margin: 0 -20px 2px 5px;
+	text-align: left;
+	flex-direction: column;
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: bold;
+	
+}
+.card {
+	width:  150px;
+	height: 150px;
+	background-color: white;	
+	margin: 0 5px 5px;
+	text-align: center;	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	place-content:  center;
+	font-size: 100px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
